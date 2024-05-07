@@ -14,20 +14,17 @@
         <li>3</li>
     </ul>
     <script>
-        // Accesso all'elemento padre di ul
-        var ulParent = document.querySelector('ul').parentNode;
+        const ulParent = document.querySelector('ul').parentNode;
         console.log("L'elemento padre di ul:", ulParent);
 
-        // Accesso al secondo elemento figlio di ul
-        var secondChild = document.querySelector('ul').children[1];
+
+        const secondChild = document.querySelector('ul').children[1];
         console.log("Il secondo elemento figlio di ul:", secondChild);
 
-        // Accesso all'elemento fratello successivo del secondo li
-        var nextSibling = secondChild.nextElementSibling;
+        const nextSibling = secondChild.nextElementSibling;
         console.log("L'elemento fratello successivo del secondo li:", nextSibling);
 
-        // Accesso all'elemento fratello precedente del secondo li
-        var previousSibling = secondChild.previousElementSibling;
+        const previousSibling = secondChild.previousElementSibling;
         console.log("L'elemento fratello precedente del secondo li:", previousSibling);
     </script>
 </body>
